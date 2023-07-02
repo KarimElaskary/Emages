@@ -1,0 +1,36 @@
+/* .search-bar{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+} */
+
+label{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.search-bar form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+
+.eLetter{
+    color: red;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.search-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+}
