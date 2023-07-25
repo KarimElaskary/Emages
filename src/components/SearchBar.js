@@ -18,6 +18,7 @@ function SearchBar({ onSubmit }){
         <div className="search-bar">
             <form onSubmit={handleFormSubmit}>
                 <label><span className='eLetter'>E</span>mages</label>
+                <h1>Download Free Backgrounds With High Quality</h1>
                 <input 
                 value={term} 
                 onChange={handleChange} 

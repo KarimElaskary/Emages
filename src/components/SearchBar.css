@@ -34,3 +34,11 @@ label{
     text-align: center;
     font-size: large;
 }
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
