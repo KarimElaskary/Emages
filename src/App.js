@@ -1,7 +1,7 @@
 import SearchBar from './components/SearchBar'
 import searchImages from './api'
 import ImageList from './components/ImageList'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 function App(){
 
@@ -11,10 +11,6 @@ function App(){
         const result = await searchImages(term)
         setImages(result)
     }
-
-    useEffect(() => {
-        console.log('working!')
-    }, [])
 
     return(
         <div>
